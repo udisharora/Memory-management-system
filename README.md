@@ -14,3 +14,32 @@ io.cpp, io.hpp: Handles input/output operations, including reading trace files a
 performance.cpp, performance.hpp: Evaluates the performance of different page table implementations, tracking memory usage, hits, and misses.
 test.cpp: Contains tests for the system, including generating trace files and validating memory management logic.
 traces/: Includes sample trace files used to simulate memory access patterns.
+
+
+## 🛠️ How to Run the Project
+
+In your terminal:
+
+### Step 1: Build the project
+```bash
+make
+```
+
+### Step 2: Run the executable
+```bash
+./main
+```
+
+> 💡 **Note for Windows users:** Use `main.exe` instead of `./main`:
+> ```bash
+> main.exe
+> ```
+
+### Step 3 (Optional): Clean the build
+```bash
+make clean
+```
+
+This will remove all object files and the compiled executable.
+
+
